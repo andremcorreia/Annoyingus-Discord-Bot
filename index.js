@@ -39,6 +39,8 @@ client.on('message', message =>{
         client.commands.get('help').execute(message, args);
     }else if(command === 'image'){
         client.commands.get('image').execute(message, args);
+    }else if(command === 'join'){
+        client.commands.get('join').execute(message, args);
     }
 });
 client.login("ODg5NjMyNDkzODM2MzA4NDkw.YUkE0w.OCRCwYr47M3gOEYHr_tX60kAfXM");
