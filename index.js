@@ -43,4 +43,4 @@ client.on('message', message =>{
         client.commands.get('join').execute(message, args);
     }
 });
-client.login("ODg5NjMyNDkzODM2MzA4NDkw.YUkE0w.OCRCwYr47M3gOEYHr_tX60kAfXM");
+client.login("Token Here");
