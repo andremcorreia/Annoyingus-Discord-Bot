@@ -3,7 +3,7 @@ module.exports = {
     description: "Hello!",
     execute(message, args){
 
-        message.channel.send("Silence peasant");
+        message.channel.send("Hey, how can i help?");
         
     }
 }
